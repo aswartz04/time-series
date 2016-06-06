@@ -15,6 +15,4 @@ homesales <- ts(homes[,2],freq=12,start=c(1973,1))
 homes <- homes[-length(homesales)]
 
 #some summary statistics
-summary(homesales)
-min(time(homesales))
-max(time(homesales))
+summary(homesales);min(time(homesales));max(time(homesales))
