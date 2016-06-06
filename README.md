@@ -1,6 +1,6 @@
 # time-series
 
 Contents:
-Data
-R Code
-PDF Report
+Data  
+R Code  
+PDF Report  
