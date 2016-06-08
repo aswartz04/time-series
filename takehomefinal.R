@@ -16,7 +16,7 @@ summary(homesales);min(time(homesales));max(time(homesales))
 #output
 plot.ts(homesales,ylab="Sales",main="New one-family homes sold in US")
 
-### tentative model ###
+##SARIMA model
 homesales.fit <- arima(homesales,order=c(1,0,0),seasonal=list(order=c(4,1,1),
 			     period=12))
 
