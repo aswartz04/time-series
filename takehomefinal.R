@@ -21,6 +21,7 @@ homesales.fit <- arima(homesales,order=c(1,0,0),seasonal=list(order=c(4,1,1),
 			     period=12))
 
 #diagnostics
+library(forecast)
 sarima(homesales,1,0,0,4,1,1,12)
 
 ##forecasting next year
